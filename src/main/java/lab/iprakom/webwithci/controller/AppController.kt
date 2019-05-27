@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 @Controller
 class AppController {
 
-    @RequestMapping("/")
+    @RequestMapping(value = ["/"])
     fun getHome(): String = "awal"
 
 }
